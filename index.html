@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 300, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+
+        
+    
+   </head>
+<body>
+    <header class="container-fluid text-white" style="background-image:url(batikvector-01\ \(Small\)\ \(Phone\).png) ;">
+        <div class="row align-items-center">
+            <div class="col-11 py-10 text-left">
+                <p class="display-5" href="index.html">Kampung Baduy</p>
+            </div>
+            <div class="col-1" >
+                <a class="btn btn-primary" href="about.html" role="button">Tentang Baduy</a>
+            </div>
+            
+                </div>
+    </header>
+
+    <audio autoplay>
+        <source src="audio/musikbaduy.mp3">
+    </audio>
+
+    <main class="container-fluid" id="listtempat">
+        
+        <div class=" row">
+            <div class="overflow-scroll col-4" id="listkampung">
+
+
+                <div class="main" id="ciboleger">
+                    <h1 class="bg-color1" style="color: white;">Terminal Ciboleger</h1>
+                    <div class="container">
+                        <div class="imagegallery">
+                         
+                            <a href="New folder/baduy2023/ciboleger.jpeg" data-lightbox="mygallery" data-title="Tugu Terminal Ciboleger, terdapat pahatan alat musik tradisional angklung di tugu ini. Masyarakat Baduy masih menggunakan alat musik tradisional dalam pentas-pentas hiburan maupun acara adat.."><img src="New folder/baduy2023/ciboleger (Custom).jpeg" alt="gambar" ></a>
+                        
+                         
+                            <a href="New folder/baduy2023/ciboleger2.jpg"data-lightbox="mygallery" data-title="Plank tanda bahwa wisatawan sudah memasuki wilaya Desa Kanekes."><img src="New folder/baduy2023/ciboleger2 (Custom).jpg" alt="gambar" ></a>
+                        
+                        
+                            <a href="New folder/baduy2023/ciboleger3.jpg"data-lightbox="mygallery" data-title="Di bangunan ini terdapat beberapa informasi mengenai suku Baduy."><img src="New folder/baduy2023/ciboleger3 (Custom).jpg" alt="gambar" ></a>
+                       
+                        
+                            <a href="New folder/baduy2023/ciboleger4.jpg"data-lightbox="mygallery" data-title="Bangunan ini adalah Posko Keadilan Masyarakat Baduy."><img src="New folder/baduy2023/ciboleger4 (Custom).jpg" alt="gambar" ></a>
+                        
+                       <!-- <iframe width="580" height="370" src="vid/video4.mp4"> </iframe> -->
+                       <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;" >
+                        <source src="vid/Ciboleger.mp4" type="video/mp4" id="videosatu">
+                      </video>
+                        </div>
+    
+                        <!--   <div class="popup-image">
+                            <span>&times;</span>
+                            <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                        </div> -->
+                    </div>
+                    <!--
+                    <script>
+                        document.querySelectorAll('.image-container img').forEach(image =>{
+                            image.onclick = () => {
+                                document.querySelector('.popup-image').style.display ='block'; 
+                                document.querySelector('.popup-image img').src = image.getAttribute('src');
+                            } 
+                        });
+
+                        document.querySelector('.popup-image span').onclick = () => {
+                            document.querySelector('.popup-image').style.display ='none'; 
+                        }
+                    </script>
+                    -->
+                    
+                    <p class="destem"> Di Terminal Ciboleger wisatawan dapat memarkirkan kendaraan yang digunakan, di Terminal Ciboleger juga dapat kita temui Tour Guide yang akan mengarahkan kita saat menyusuri Kampung Baduy.</p>
+                    <p class="bitem">Tour Guide ke daerah ini: <font color="green"> Rp. 0</font></p>
+                </div>
+                
+                <div class="main" id="kaduketug">
+                <h1 class="bg-color1" style="color: white;">Kampung Kadu Ketug 1</h1>
+                <div class="container">
+                    <div class="imagegallery">
+                     <a href="New folder/baduy2023/Kadu ketug 1/1689852955410.jpg" data-lightbox="mygallery" data-title="Tanda nama kampung Kadu Ketug 1 (sekaligus tanda bahwa wisatawan sudah sampai di kampung Kadu Ketug 1)"><img src="New folder/baduy2023/Kadu ketug 1/1689852955410 (Custom).jpg" alt="gambar alam"></a>
+                        <a href="New folder/baduy2023/Kadu ketug 1/1689852955314.jpg" data-lightbox="mygallery" data-title="Gula aren asli desa Kanekes, yang dapat dijadikan oleh-oleh."><img src="New folder/baduy2023/Kadu ketug 1/1689852955314 (Custom).jpg" alt="gambar alam" ></a>
+                    
+                     
+                        <a href="New folder/baduy2023/Kadu ketug 1/1689852955327.jpg" data-lightbox="mygallery" data-title="Beberapa oleh-oleh dari Desa Kanekes."><img src="New folder/baduy2023/Kadu ketug 1/1689852955327 (Custom).jpg" alt="gambar alam"></a>
+                   
+                     
+                        <a href="New folder/baduy2023/Kadu ketug 1/1689852955384.jpg" data-lightbox="mygallery" data-title="Oleh-oleh berupa kain batik Baduy, kain tenun, tas buatan tangan warga Desa Kanekes."> <img src="New folder/baduy2023/Kadu ketug 1/1689852955384 (Custom).jpg" alt="gambar alam"></a>
+
+                     
+                        <a href="New folder/baduy2023/Kadu ketug 1/1689852955396.jpg" data-lightbox="mygallery" data-title="Oleh-oleh berupa kain batik Baduy, kain tenun, tas buatan tangan warga Desa Kanekes."><img src="New folder/baduy2023/Kadu ketug 1/1689852955396 (Custom).jpg" alt="gambar alam"></a>
+                    
+                    
+                        
+                    
+                    <!-- <iframe width="580" height="370" src="https://www.youtube.com/embed/O9tLEJCalxg"> </iframe> -->
+                    <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;">
+                        <source src="vid/kaduketug1.mp4" type="video/mp4" id="videosatu">
+                      </video>
+                    </div>
+
+                    <!--<div class="popup-image">
+                        <span>&times;</span>
+                        <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                    </div>-->
+                </div>
+                <!--<script>
+                    document.querySelectorAll('.image-container img').forEach(image =>{
+                        image.onclick = () => {
+                            document.querySelector('.popup-image').style.display ='block'; 
+                            document.querySelector('.popup-image img').src = image.getAttribute('src');
+                        } 
+                    });
+
+                    document.querySelector('.popup-image span').onclick = () => {
+                        document.querySelector('.popup-image').style.display ='none'; 
+                    }
+                </script>-->
+                <p class="destem"> Kampung pertama yang akan wisatawan datangi adalah Kampung Kadu Ketug 1, dikarenakan kampung ini adalah yang terluar, kampung ini jadi pusat buah tangan dari kampung Baduy, banyak oleh-oleh yang dijajahkan di kampung kadu ketug 1, mulai dari madu, gula aren, kopi, hingga kain hasil tenun dan juga berbagai tas buatan tangan manusia. </p>
+                <p class="bitem">Biaya Tour Guide ke daerah ini: <font color="green"> Rp. 50.000-100.000 </font> (Seikhlasnya) </p>
+                <p class="bitem">Biaya Penginapan (dapat memuat 10-12 wisatawan ) <font color="green"> Rp. 250.000 - 300.000 </font> (dapat ditawar) </p>
+                </div>
+                
+
+                <div class="main" id="cipondok">
+                    <h1 class="bg-color1" style="color: white;">Kampung Cipondok</h1>
+                    <div class="container">
+                        <div class="imagegallery">
+                         
+                            <a href="New folder/baduy2023/Kadu ketug 2/cipondok.jpg" data-lightbox="mygallery" data-title="Tanda nama kampung Cipondok atau kampung Kadu Ketug 2"><img src="New folder/baduy2023/Kadu ketug 2/cipondok (Custom).jpg" alt="gambar alam" ></a>
+                      
+                            <a href="New folder/baduy2023/Kadu ketug 2/cipondok(2).jpg" data-lightbox="mygallery" data-title="Oleh-oleh khas Desa Kanekes."><img src="New folder/baduy2023/Kadu ketug 2/cipondok(2) (Custom).jpg" alt="gambar alam" ></a>
+ 
+                            <a href="New folder/baduy2023/Kadu ketug 2/cipondok(3).jpeg" data-lightbox="mygallery" data-title="Lumbung tempat warga desa menyimpan hasil panen."><img src="New folder/baduy2023/Kadu ketug 2/cipondok(3) (Custom).jpeg" alt="gambar alam" ></a>
+                      
+                            <a href="New folder/baduy2023/Kadu ketug 2/cipondok(5).jpeg" data-lightbox="mygallery" data-title="Indahnya tanaman hias di kampung ini menambah kesan sejuk dan nyaman."><img src="New folder/baduy2023/Kadu ketug 2/cipondok(5) (Custom).jpeg" alt="gambar alam" ></a>
+                        
+                            <a href="New folder/baduy2023/Kadu ketug 2/cipondok(6).jpeg" data-lightbox="mygallery" data-title="Lumbung tempat warga desa menyimpan hasil panen."><img src="New folder/baduy2023/Kadu ketug 2/cipondok(6) (Custom).jpeg" alt="gambar alam" ></a>
+                       
+                            <a href="New folder/baduy2023/Kadu ketug 2/cipondok(7).jpeg" data-lightbox="mygallery" data-title="Masyarakat Baduy Luar."><img src="New folder/baduy2023/Kadu ketug 2/cipondok(7) (Custom).jpeg" alt="gambar alam" ></a>
+                        
+                        <!-- <iframe width="580" height="370" src="https://www.youtube.com/embed/O9tLEJCalxg"></iframe> -->
+                        <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;">
+                            <source src="vid/kaduketug2.mp4" type="video/mp4" id="videosatu">
+                          </video>
+                        </div>
+    
+                        <!-- <div class="popup-image">
+                            <span>&times;</span>
+                            <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                        </div> -->
+                    </div>
+                    <!-- <script>
+                        document.querySelectorAll('.image-container img').forEach(image =>{
+                            image.onclick = () => {
+                                document.querySelector('.popup-image').style.display ='block'; 
+                                document.querySelector('.popup-image img').src = image.getAttribute('src');
+                            } 
+                        });
+
+                        document.querySelector('.popup-image span').onclick = () => {
+                            document.querySelector('.popup-image').style.display ='none'; 
+                        }
+                    </script> -->
+                    
+                    
+                    <p class="destem">Kampung cipondok atau bisa dibilang juga Kampung Kadu Ketug 2. Seperti kampung kadu ketug 1, di sini wisatawan dapat membeli oleh-oleh, namun penjualnya semakin berkurang. Dalam perjalan menuju kampung berikutnya, wisatawan akan melewati daerah yang terdapat banyak lumbung padi dimana warga kampung menyimpan padi mereka, entah bagaimana caranya, warga desa dapat mengetahui dimana letak lumbung mereka masing-masing.</p>
+                    <p class="bitem">Biaya Tour Guide ke daerah ini: <font color="green"> Rp. 50.000-100.000 </font> (Seikhlasnya) </p>
+                <p class="bitem">Biaya Penginapan (dapat memuat 10-12 wisatawan ) <font color="green"> Rp. 250.000 - 300.000 </font> (dapat ditawar) </p>
+                </div>
+
+                <div class="main" id="kaduketug3">
+                        <h1 class="bg-color1" style="color: white;">Kampung Kadu Ketug 3</h1>
+                        <div class="container">
+                            <div class="imagegallery">
+                             
+                                <a href="New folder/baduy2023/Kadu ketug 3/kaduketug3.jpg" data-lightbox="mygallery" data-title="Tanda nama Kampung Kadu Ketug 3(tiga)."><img src="New folder/baduy2023/Kadu ketug 3/kaduketug3 (Custom).jpg" alt="gambar alam" ></a>
+                           
+                                <a href="New folder/baduy2023/kadu ketug 3/kaduketug3(2).jpeg" data-lightbox="mygallery" data-title="Salah satu warga desa sedang membuat alat musik tradisional Pantun Bambu."><img src="New folder/baduy2023/kadu ketug 3/kaduketug3(2) (Custom).jpeg" alt="gambar alam" ></a>
+                                
+                                <a href="New folder/baduy2023/Kadu ketug 3/kaduketug3(3).jpg" data-lightbox="mygallery" data-title="Penampungan air yang ada di kampung kadu ketug 3."><img src="New folder/baduy2023/Kadu ketug 3/kaduketug3(3) (Custom).jpg" alt="gambar alam" ></a>
+                                
+                                <a href="New folder/baduy2023/Kadu ketug 3/kaduketug3(4).jpg" data-lightbox="mygallery" data-title="warga desa sedang menenun kain."><img src="New folder/baduy2023/Kadu ketug 3/kaduketug3(4) (Custom).jpg" alt="gambar alam" ></a>
+                                
+                                <a href="New folder/baduy2023/Kadu ketug 3/kaduketug3(5).jpg" data-lightbox="mygallery" data-title="salah satu warung yang menjual oleh-oleh."><img src="New folder/baduy2023/Kadu ketug 3/kaduketug3(5) (Custom).jpg" alt="gambar alam" ></a>
+                               
+                                <a href="New folder/baduy2023/Kadu ketug 3/kaduketug(6).png" data-lightbox="mygallery" data-title="Suasana kampung kadu ketug 3."><img src="New folder/baduy2023/Kadu ketug 3/kaduketug(6) (Custom).png" alt="gambar alam" ></a>
+                            
+                                
+                          
+                            <!-- <iframe width="580" height="370" src="https://www.youtube.com/embed/O9tLEJCalxg"></iframe> -->
+                            <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;" >
+                                <source src="vid/kaduketug3.mp4" type="video/mp4" id="videosatu">
+                              </video>
+                            </div>
+        
+                            <!-- <div class="popup-image">
+                                <span>&times;</span>
+                                <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                            </div> -->
+                        </div>
+                        <!-- <script>
+                            document.querySelectorAll('.image-container img').forEach(image =>{
+                                image.onclick = () => {
+                                    document.querySelector('.popup-image').style.display ='block'; 
+                                    document.querySelector('.popup-image img').src = image.getAttribute('src');
+                                } 
+                            });
+    
+                            document.querySelector('.popup-image span').onclick = () => {
+                                document.querySelector('.popup-image').style.display ='none'; 
+                            }
+                        </script> -->
+                <p class="destem"> Suasana pedesaan akan semakin terasa ketika wisatawan tiba di kampung kadu ketug 3, dan masih seperti kampung kadu ketug lainnya, di kampung ini masih terdapat beberapa penjual oleh-oleh, namun jumlah penjualnya semakin berkurang secara signifikan. Wisatawan sebaiknya beristirahat sejenak di kampung ini, karena jarak menuju kampung berikutnya lumayan jauh, dan juga siapkan tenaga lebih, karena jalan yang akan ditempuh juga naik turun.</p>
+                <p class="bitem">Biaya Tour Guide ke daerah ini: <font color="green"> Rp. 50.000-100.000 </font> (Seikhlasnya) </p>
+                <p class="bitem">Biaya Penginapan (dapat memuat 10-12 wisatawan ) <font color="green"> Rp. 250.000 - 300.000 </font> (dapat ditawar) </p>
+                </div>
+
+                <div class="main" id="legok">
+                    <h1 class="bg-color1" style="color: white;">Kampung Legok Jeruk</h1>
+                    <div class="container">
+                        <div class="imagegallery">
+                         
+                            <!-- <a href="New folder/baduy2023/legok jeruk/legok (1).png" data-lightbox="mygallery" data-title="Kampung yang berada di dataran tinggi membuat wisatawan dapat menikmati pemadangan yang luar biasa indah."><img src="New folder/baduy2023/legok jeruk/legok (1) (Custom).png" alt="gambar alam" ></a> -->
+                            <a href="New folder/baduy2023/legok jeruk/legok (2).png" data-lightbox="mygallery" data-title="Suasana di kampung Legok Jeruk."><img src="New folder/baduy2023/legok jeruk/legok (2) (Custom).png" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/legok jeruk/legok (3).jpg" data-lightbox="mygallery" data-title="Dikarenakan Kampung Legok Jeruk adalah kampung baru, akan banyak dijumpai bangunan yang sedang dalam proses pembuatan."><img src="New folder/baduy2023/legok jeruk/legok (3) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/legok jeruk/legok (4).jpg" data-lightbox="mygallery" data-title="Tas Kepek, tas buatan tangan yang dapat dibeli dan dijadikan oleh-oleh."><img src="New folder/baduy2023/legok jeruk/legok (4) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/legok jeruk/legok (5).jpg" data-lightbox="mygallery" data-title="Lahan yang nantinya akan dijadikan bangunan atau rumah warga."><img src="New folder/baduy2023/legok jeruk/legok (5) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/legok jeruk/legok (6).jpg" data-lightbox="mygallery" data-title="Warga desa bergotong royong untuk membangun rumah."><img src="New folder/baduy2023/legok jeruk/legok (6) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/legok jeruk/legok (7).jpg" data-lightbox="mygallery" data-title="Warga desa bergotong royong untuk membangun rumah."><img src="New folder/baduy2023/legok jeruk/legok (7) (Custom).jpg" alt="gambar alam" ></a>
+                        
+                       
+                        <!-- <iframe width="580" height="370" src="https://www.youtube.com/embed/O9tLEJCalxg"> -->
+                            <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;">
+                                <source src="vid/legokjeruk.mp4" type="video/mp4" id="videosatu">
+                              </video>
+                        <!-- </iframe> -->
+                        </div>
+    
+                        <!-- <div class="popup-image">
+                            <span>&times;</span>
+                            <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                        </div> -->
+                    </div>
+                    <!-- <script>
+                        document.querySelectorAll('.image-container img').forEach(image =>{
+                            image.onclick = () => {
+                                document.querySelector('.popup-image').style.display ='block'; 
+                                document.querySelector('.popup-image img').src = image.getAttribute('src');
+                            } 
+                        });
+
+                        document.querySelector('.popup-image span').onclick = () => {
+                            document.querySelector('.popup-image').style.display ='none'; 
+                        }
+                    </script> -->
+                <p class="destem"> Nama kampung ini adalah kampung Legok Jeruk, kampung ini merupakan kampung baru, alasan dibuatnya kampung baru adalah meningkatnya populasi warga kampung Baduy, jadi dibuatlah semacam pemerataan penduduk. Dikarnakan kampung ini berada di dataran tinggi, wisatawan dapat menikmati pemandangan yang lebih indah lagi. Walaupun jarak ke kampung berikutnya tidak terlalu jauh, namun wisatawan dapat beristirahat di kampung ini karna lelah akibat perjalanan dari kampung sebelumnya. </p>
+                <p class="bitem">Biaya Tour Guide ke daerah ini: <font color="green"> Rp. 150.000-200.000 </font></p>
+                <p class="bitem">Biaya Penginapan (dapat memuat 10-12 wisatawan ) <font color="green"> Rp. 250.000 - 300.000 </font> (dapat ditawar) </p>
+            </div>
+
+                <div class="main" id="cihulu">
+                    <h1 class="bg-color1" style="color: white;">Kampung Cihulu</h1>
+                    <div class="container">
+                        <div class="imagegallery">
+                         
+                            <a href="gbr/nopre.jpeg" data-lightbox="mygallery" data-title="-"><img src="gbr/nopre (Custom).jpeg" alt="gambar alam" ></a>
+                 
+                        </div>
+                        <p class="destem"> Kampung Cihulu, adalah kampung yang jarang dikunjungi oleh wisatawan, karna masih banyak rumah rumah adat yang tidak boleh terekspos ke dunia maya, sehingga tour guide tidak mengarahkan wisatawan berkunjung ke kampung ini. Dan alasan berikutnya adalah, untuk pergi ke Kampung Gajeboh (perbatasan Baduy luar dan Baduy dalam) wisatawan tidak akan melewati kampung ini karena jarak tempuhnya akan semakin jauh. Namun jangan khawatir, masih ada 3 (tiga) kampung lagi yang dapat wisatawan kunjungi dan nikmati keindahannya.</p>
+                       
+                       
+                    </div>
+                   
+                    </div>
+
+                <div class="main" id="balimbingan">
+                        <h1 class="bg-color1" style="color: white;">Kampung Balimbingan</h1>
+                        <div class="container">
+                            <div class="imagegallery">
+                             
+                                <a href="New folder/baduy2023/Balimbing/balimbingan.jpg" data-lightbox="mygallery" data-title="Tanda nama Kampung Balimbingan, pertanda wisatawan telah memasuki kampung Balimbingan."><img src="New folder/baduy2023/Balimbing/balimbingan (Custom).jpg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Balimbing/balimbingan (2).jpeg" data-lightbox="mygallery" data-title="Suasana di kampung Balimbingan."><img src="New folder/baduy2023/Balimbing/balimbingan (2) (Custom).jpeg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Balimbing/balimbingan (3).jpeg" data-lightbox="mygallery" data-title="Akan semakin sedikit dijumpai penjual oleh-oleh di kampung ini."><img src="New folder/baduy2023/Balimbing/balimbingan (3) (Custom).jpeg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Balimbing/1689852954125.jpg" data-lightbox="mygallery" data-title="Suasana di kampung Balimbingan."><img src="New folder/baduy2023/Balimbing/1689852954125 (Custom).jpg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Balimbing/balimbingan (5).jpeg" data-lightbox="mygallery" data-title="Warga desa sedang membuat kain dengan cara bertenun."><img src="New folder/baduy2023/Balimbing/balimbingan (5) (Custom).jpeg" alt="gambar alam" ></a>
+                           
+                                
+                            
+                            <!-- <iframe width="580" height="370" src="https://www.youtube.com/embed/O9tLEJCalxg"></iframe> -->
+                            <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;">
+                                <source src="vid/balimbingann.mp4" type="video/mp4" id="videosatu">
+                              </video>
+                            </div>
+        
+                            <!-- <div class="popup-image">
+                                <span>&times;</span>
+                                <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                            </div> -->
+                        </div>
+                    <!-- <script>
+                        document.querySelectorAll('.image-container img').forEach(image =>{
+                            image.onclick = () => {
+                                document.querySelector('.popup-image').style.display ='block'; 
+                                document.querySelector('.popup-image img').src = image.getAttribute('src');
+                            } 
+                        });
+
+                        document.querySelector('.popup-image span').onclick = () => {
+                            document.querySelector('.popup-image').style.display ='none'; 
+                        }
+                    </script> -->
+                        <p class="destem"> Tidak jauh dari daerah tertinggi Baduy luar (Kampung Legok Jeruk), wisatawan akan tiba di Kampung Balimbingan, semakin wisatawan masuk ke Desa, semakin sejuk rasanya, jalanan yang dikelilingi hutan, tidak terasa panas walaupun diterangi langsung oleh matahari. Di kampung ini wisatawan akan jarang menemui penjual oleh-oleh, akan tetapi ada beberapa warung untuk membeli minuman ataupun cemilan.</p>
+                        <p class="bitem">Tour Guide ke daerah ini: <font color="green"> Rp. 150.000-200.000 </font></p>
+                        <p class="bitem">Biaya Penginapan (dapat memuat 10-12 wisatawan ) <font color="green"> Rp. 250.000 - 300.000 </font> (dapat ditawar) </p>
+                    </div>
+
+                    <div class="main" id="marengo">
+                        <h1 class="bg-color1" style="color: white;">Kampung Morengo</h1>
+                        <div class="container">
+                            <div class="imagegallery">
+                             
+                                <a href="New folder/baduy2023/Marengo/marengo.jpg" data-lightbox="mygallery" data-title="Tanda nama Kampung Marengo."><img src="New folder/baduy2023/Marengo/marengo (Custom).jpg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Marengo/marengo (1).jpeg" data-lightbox="mygallery" data-title="Jembatan bambu yang baru dibuat warga desa, guna meringankan warga maupun wisatawan untuk beraktifitas."><img src="New folder/baduy2023/Marengo/marengo (1) (Custom).jpeg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Marengo/marengo (2).jpg" data-lightbox="mygallery" data-title="Sungai Ciujung, sungai yang berada dekat dengan Kampung Marengo, terlihat dangkal dan tidak deras, namun wisatawan dihimbau untuk berhati-hati."><img src="New folder/baduy2023/Marengo/marengo (2) (Custom).jpg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Marengo/marengo (3).jpg" data-lightbox="mygallery" data-title="Lesung yang biasa digunakan warga desa untuk menumbuk hasil panen."><img src="New folder/baduy2023/Marengo/marengo (3) (Custom).jpg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Marengo/marengo (4).jpg" data-lightbox="mygallery" data-title="Suasana kampung Marengo, semakin jarang atau bahkan tidak ada penjual oleh-oleh."><img src="New folder/baduy2023/Marengo/marengo (4) (Custom).jpg" alt="gambar alam" ></a>
+                                <a href="New folder/baduy2023/Marengo/marengo (5).jpg" data-lightbox="mygallery" data-title="Untuk wisatawan yang ingin bermain di sungai, harap berhati-hati dan sudah izin kepada Tour Guide."><img src="New folder/baduy2023/Marengo/marengo (5) (Custom).jpg" alt="gambar alam" ></a>
+                     
+                            <!-- <iframe width="580" height="370" src="https://www.youtube.com/embed/O9tLEJCalxg"></iframe> -->
+                            <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;" >
+                                <source src="vid/marengo.mp4" type="video/mp4" id="videosatu">
+                              </video>
+                            </div>
+        
+                            <!-- <div class="popup-image">
+                                <span>&times;</span>
+                                <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                            </div> -->
+                        </div>
+                    <!-- <script>
+                        document.querySelectorAll('.image-container img').forEach(image =>{
+                            image.onclick = () => {
+                                document.querySelector('.popup-image').style.display ='block'; 
+                                document.querySelector('.popup-image img').src = image.getAttribute('src');
+                            } 
+                        });
+
+                        document.querySelector('.popup-image span').onclick = () => {
+                            document.querySelector('.popup-image').style.display ='none'; 
+                        }
+                    </script> -->
+             <p class="destem"> Jika wisatawan sudah merasa sejuk di kampung sebelumnya, disini akan terasa semakin lengkap, karna di kampung ini ada sungai yang mengalir tidak terlalu deras, di sungai ini warga kampung mencuci pakaian, anak-anak juga ada yang mandi disini (dibagian yang dangkal), dan dihimbau kepada wisatawan untuk tidak berenang di sungai ini jika tidak pandai berenang dan alangkah baiknya izin atau bertanya dulu ke Tour guide yang mengarahkan wisatawan.</p>
+             <p class="bitem">Tour Guide ke daerah ini: <font color="green"> Rp. 150.000-200.000 </font></p>
+             <p class="bitem">Biaya Penginapan (dapat memuat 10-12 wisatawan ) <font color="green"> Rp. 250.000 - 300.000 </font> (dapat ditawar) </p>
+            </div>
+
+                    <div class="main" id="gajeboh">
+                    <h1 class="bg-color1" style="color: white;">Kampung Gajeboh</h1>
+                    <div class="container">
+                        <div class="imagegallery">
+                         
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (1).jpg" data-lightbox="mygallery" data-title="Tanda nama Kampung Gajeboh, kampung terakhir sebelum memasukin area Baduy Dalam."><img src="New folder/baduy2023/Gajeboh/gajeboh (1) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (2).jpg" data-lightbox="mygallery" data-title="Suara sungai yang mengalir, ditambah suara hewan-hewan, menambah kesan damai."><img src="New folder/baduy2023/Gajeboh/gajeboh (2) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (3).jpg" data-lightbox="mygallery" data-title="Suara sungai yang mengalir, ditambah suara hewan-hewan, menambah kesan damai."><img src="New folder/baduy2023/Gajeboh/gajeboh (3) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (4).jpg" data-lightbox="mygallery" data-title="Jembatan Bambu yang menyebrangi lebarnya sungai Ciujung."><img src="New folder/baduy2023/Gajeboh/gajeboh (4) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (5).jpg" data-lightbox="mygallery" data-title="Di seberang sungai, terdapat beberapa gajeboh yang dapat digunakan oleh wisatawan untuk beristirahat sambil menikmati sejuknya suasana di Kampung Gajeboh."><img src="New folder/baduy2023/Gajeboh/gajeboh (5) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (6).jpg" data-lightbox="mygallery" data-title="Panjang dari jembatan bambu."><img src="New folder/baduy2023/Gajeboh/gajeboh (6) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (7).jpg" data-lightbox="mygallery" data-title="Tinggi jembatan bambu dari sungai dibawahnya."><img src="New folder/baduy2023/Gajeboh/gajeboh (7) (Custom).jpg" alt="gambar alam" ></a>
+                            <a href="New folder/baduy2023/Gajeboh/gajeboh (8).jpg" data-lightbox="mygallery" data-title="Terdapat juga beberapa lumbung dimana warga desa menyimpan hasil panen."><img src="New folder/baduy2023/Gajeboh/gajeboh (8) (Custom).jpg" alt="gambar alam" ></a>
+
+                        <!-- <iframe width="580" height="370" src="https://www.youtube.com/embed/O9tLEJCalxg"></iframe> -->
+                        <video autoplay muted loop id="videotempat" width="580" height="370" style="border-radius: 0px; border: solid #01509f;">
+                            <source src="vid/gajeboh.mp4" type="video/mp4" id="videosatu">
+                          </video>
+                        </div>
+    
+                        <!-- <div class="popup-image">
+                            <span>&times;</span>
+                            <img src="https://placeimg.com/250/250/nature" alt="gambar alam">
+                        </div> -->
+                    </div>
+                    <!-- <script>
+                        document.querySelectorAll('.image-container img').forEach(image =>{
+                            image.onclick = () => {
+                                document.querySelector('.popup-image').style.display ='block'; 
+                                document.querySelector('.popup-image img').src = image.getAttribute('src');
+                            } 
+                        });
+
+                        document.querySelector('.popup-image span').onclick = () => {
+                            document.querySelector('.popup-image').style.display ='none'; 
+                        }
+                    </script> -->
+                <p class="destem"> Nah.. ini adalah kampung perbatasan antara Baduy luar dan Baduy dalam, tapi jangan salah sangka, jarak dari Kampung Gajeboh ke Baduy dalam itu sekitar 9 KM. Kampung ini dikelilingi oleh pepohonan tinggi, sehingga menambah kesan sejuk dan sepi, dan di kampung ini ada peraturan untuk tidak berisik di hari Jumat (pagi hingga siang hari). Jembatan bambu yang menyebrangi sungai Ciujung merupakan salah satu daya tarik dari kampung ini, setelah melewati jembatan ini wisatawan akan disambut oleh gajeboh untuk beristirahat sambil menikmati indahnya alam Kampung Baduy.</p>
+                <p class="bitem">Tour Guide ke daerah ini: <font color="green"> Rp. 150.000-200.000 </font></p>
+                <p class="bitem">Biaya Penginapan (dapat memuat 10-12 wisatawan ) <font color="green"> Rp. 250.000 - 300.000 </font> (dapat ditawar) </p>
+            </div>
+
+            </div>
+            
+            
+            <div class="col-8 py-10">
+                <img class="zoom" src="gbr/jjj-01-01.png" alt="gambar" width='1268' height='848' usemap="#baduy" style="position: relative;">
+                <a href="#ciboleger"><img class="gbrciboleger" src="gbr/terminal.png" alt="ciboleger"></a>
+                <a href="#kaduketug"><img class="gbrkaduketug1" src="gbr/kaduketug1.png" alt="kadukektug1"></a>
+                <a href="#cipondok"><img class="gbrcipondok" src="gbr/cipondok.png" alt="cipondok"></a>
+                <a href="#kaduketug3"><img class="gbrkaduketug3" src="gbr/kaduketug3.png" alt="kaduketug3"></a>
+                <a href="#cihulu"><img class="gbrcihulu" src="gbr/cihulu.png" alt="cihulu"></a>
+                <a href="#legok"><img class="gbrlegok" src="gbr/legokjeruk.png" alt="legok"></a>
+                <a href="#balimbingan"><img class="gbrbalimbingan" src="gbr/balimbingan.png" alt="balimbingan"></a>
+                <a href="#marengo"><img class="gbrmarengo" src="gbr/marengo-01.png" alt="marengo"></a>
+                <a href="#gajeboh"><img class="gbrgajeboh" src="gbr/gajeboh.png" alt="gajeboh"></a>
+                </div>
+
+                <!-- <script src="wheelzoom.js"></script> -->
+    <!--
+	<script>
+		wheelzoom(document.querySelector('img.zoom'));
+	</script>
+    -->
+    <!-- tandain map-->
+    <!-- <map name="baduy">
+        <area shape="circle" coords="100,90,90" alt="ciboleger" href="#ciboleger">
+        <area shape="circle" coords="290,110,115" alt="kaduketug" href="#kaduketug">
+        <area shape="circle" coords="480,320,115" alt="cipondok" href="#cipondok">
+        <area shape="circle" coords="140,740,115" alt="kaduketug3" href="#kaduketug3">
+        <area shape="circle" coords="1025,110,90" alt="cihulu" href="#cihulu">
+        <area shape="circle" coords="835,320,90" alt="legok" href="#legok">
+        <area shape="circle" coords="580,755,80" alt="balimbingan" href="#balimbingan">
+        <area shape="circle" coords="1110,420,90" alt="marengo" href="#marengo">
+        <area shape="circle" coords="1060,760,80" alt="gajeboh" href="#gajeboh">
+
+    </map> -->
+    <!-- end of tandain map-->
+            </div>
+        
+        </div>
+    </main>
+
+    <!--
+    <footer class="container-fluid bg-primary text-white">
+        <div class="row">
+            <div class="col-12 py-4">
+                &copy; 2022
+            </div>
+        </div>
+    </footer>
+    -->
+</body>
+</html>

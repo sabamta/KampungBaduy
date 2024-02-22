@@ -147,7 +147,7 @@
           
           <div class="row">
             <div class="col-xl-5 text-center p-3 kotakteks">
-              <p class="teks1"style="font-size: large;" > Suku Baduy terkenal karena menolak modernisasi dan sangat menjaga warisan adat serta tanah nenek moyang mereka. Mereka hidup berdampingan dengan alam dan memiliki kearifan lokal yang menjaga kelestarian alam.</p>
+              <p class="teks1"style="font-size: large;" > Suku Baduy terkenal karena menolak modernisasi dan sangat menjaga warisan adat serta tanah nenek moyang mereka. Mereka hidup berdampingan dengan alam dan memiliki kearifan lokal yang menjaga kelestarian alam. Suku Baduy terbagi menjadi Suku Baduy Luar dan Suku Baduy Dalam, Suku Baduy luar identik dengan pakaian yang serba hitam, sementara suku Baduy Dalam identik dengan pakai yang serba Putih.</p>
             </div>
             <div class="col-xl-7 text-white p-3 kotakvideo" style="position: relative;">
               <video autoplay muted loop id="myVideo2">
@@ -167,12 +167,55 @@
             </div>
             <div class="col-xl-7 text-center p-3 kotaktekst" style="position: relative;">
               <p class="tekstengahh"style="font-size: large;" > Terdapat waktu dimana kampung Baduy Dalam tertutup dari kunjungan, yaitu sekitar bulan Februari-Maret untuk tahun 2023 (menurut penanggalan adat Baduy bulan tersebut dikenal dengan Bulan Kawalu).</p>
+              <!-- Trigger/Open The Modal -->
+<a type="btn btn-primary" id="myBtn" class="buttonh">Himbauan</a>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <!-- <p>HIMBAUAN</p> -->
+    <p>Kepada Calon Wisatawan, jika hendak berkunjung ke Kampung Baduy, silahkan pakai jasa Tour Guide yang ada. Biasanya akan ada yang menawarkan jasa Tour Guide di Terminal Ciboleger. Untuk biaya Tour Guide nya terdapat pada halaman Map Baduy.</p>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
             </div>
+            
           </div>
 
           <div class="row">
             <div class="col-xl-5  text-center p-3 kotakteks">
-              <p class="teks1"style="font-size: large;" > Aplikasi ini berfungsi untuk mempromosikan Desa Wisata Baduy, juga sekaligus mengedukasi wisatawan tentang indahnya alam Desa Kanekes, suku Baduy serta peraturan yang perlu wisatawan ketahui. Aplikasi ini hanya menyajikan informasi mengenai Kampung Baduy Luar.  </p>
+              <p class="teks1"style="font-size: large;" > Aplikasi ini bertujuan untuk mengedukasi calon wisatawan mengenai Desa Wisata Baduy, mulai dari apa saja yang ada di Kampung Baduy Luar serta peraturan yang harus ditaati oleh pengunjung. Aplikasi ini hanya menyajikan informasi mengenai Kampung Baduy Luar.  </p>
             </div>
             <div class="col-xl-7 text-white p-3 kotakvideo" style="position: relative;">
               <video autoplay muted loop id="myVideo4">
@@ -196,7 +239,7 @@
             <div class="col-xl-7 text-center p-3 kotaktekst" style="position: relative;">
               <p class="tekstengah"style="font-size: large;" > Seba merupakan upacara tradisional yang sudah berlangsung sejak ratusan tahun silam. Upacara Seba merupakan kunjungan resmi masyarakat Baduy setelah melakukan panen. Upacara Seba bertujuan untuk membawa amanat ketua adat, memberi laporan dan menyampaikan harapan, juga menyerahkan hasil panen. Sebelum upacara Seba dimulai, masyarakat Baduy akan dterlebih dahulu melakukan upacara Kawalu (ungkapan terimakasih kepada Tuhan atas panen yang telah dilakukan) selama 3 bulan.</p>
               <p class="tekstengah2">Untuk informasi lebih lanjut tentang suku Baduy dan juga destinasi wisata yang ada di Kabupaten Lebak, silahkan klik tombol di bawah ini.</p>
-              <input type="button" href="http://lebakunique.id/" class="button" value="Klik Disini" id="tombol"> </input>
+              <a type="btn btn-primary" href="https://lebakunique.id" target="_blank" class="button" id="tombol"> Klik Disini </a>
             </div>
            
           </div>
